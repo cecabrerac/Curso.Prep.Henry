@@ -1,0 +1,114 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+------------------------------------------------
+Variables
+
+JavaScript permite darle nombre a los valores utilizando variables. Podemos pensar en una variable como si ésta fuera una caja que puede contener alguna cosa en ella. Si pones algo más en ella, la primera cosa que estaba sale de la caja. Para crear una nueva variable se usa la palabra reservada "var" seguida del nombre de la variable. Una palabra reservada es una palabra clave que tiene un significado especial en JavaScript. En este caso, cuando escribimos "var" JavaScript sabe que vamos a entrar el nombre de una nueva variable. Por ejemplo, así podemos crear una nueva variable llamada "edad":
+
+var edad;
+
+Para asignarle a la variable un valor, usamos el signo igual (=):
+
+var edad = 12;
+
+Hemos asignado el valor 12 a la variable edad. El valor asignado no es definitivo. Por eso se llaman variables, porque varían, ellas pueden cambiar. Y si se quiere actualizar se puede hacer por ejemplo:
+
+edad = 13;
+
+En este caso ya no usamos la palabra reservada var porque la variable ya existe. Solo se debe usar var cuando se va a crear la variable no cuando se va a cambiar su valor.
+
+
+-------------------------------------
+Strings
+
+Los strings son secuencias de caracteres que pueden incluir letras, números, signos de puntuación y espacios. Ponemos los strings entre comillas para que JavaScript sepa donde comienza y donde termina el string. Por ejemplo: "Hola amigos".
+
+Se pueden usar comillas dobles (") o comillas sencillas ('). 
+
+Así como se pueden colocar números en variables, también se pueden asignar strings a las variables:
+
+var miString = "Este es mi primer string en una variable!";
+
+-------------------------------------
+Funciones (argumentos, return)
+
+Una función es una forma de empaquetar código para que pueda ser reutilizado. Las funciones nos permiten correr la misma parte del código desde diferentes lugares en el programa sin tener que copiar y pegar el código repetidamente. Dividiendo el código en partes más pequeñas y más manejables es posible visualizar lo macro y pensar en cómo estructurar el programa en un nivel superior. 
+
+Las funciones son muy útiles cuando es necesario realizar tareas repetitivas de cálculos o acciones en el programa. 
+
+Básicamnete, la función empieza con la palabra clave "function" que le indica a JavaScript que lo que sigue es una función. Después viene el nombre de la función seguido de un paréntesis que abre y otro que cierra. Y luego viene el código a ejecutar entre corchetes.
+
+function logHola() {
+    console.log('hola!');
+}
+
+logHola();
+
+En este ejemplo logHola es el nombre de la función y ejecuta consol.log('hola!') que est+a entre los corchetes. Pero realmente para ejecutar la función es necesario llamarla desde otro lugar escribiendo el nombre de la función y los paréntesis.
+
+Llamando LogHola() se ejecuta el código de la función y así se mostrará en pantalla el texto "hola!".
+
+Un valor de retorno "return" es el valor que entrega la función y que puede ser utilizado después en cualquier parte del código. En el ejemplo anterior, el valor de retorno será "Undefined" debido a que no le dijimos a la función que retornara un valor en particular. Solo le pedimos que imprima un mensaje en pantalla o en la consola que no es lo mismo que retorne un valor. 
+
+Los argumentos de las funciones son un conjunto de expresiones delimitas por comas evaluadas de izquierda a derecha que se emplean para pasar información a las funciones.
+
+Por ejemplo:
+
+function logHola(nombre) {
+    console.log('Hola, ' + nombre);
+}
+
+logHola('Martin');
+
+En este ejemplo se agregó una variable a los paréntesis cuando se declaró la función, así podemos usar esta variable dentro de la función. Cuando llamemos la función desde afuera le daremos el valor a esa variable para que con ella ejecute el código que está dentro de la función. Es decir, al llamar la función con logHola('Martin'); se ejecuta la función logHola(nombre) usando el valor 'Martin' como nombre. El resultado obtendio será que imprima en la consola 'Hola Martin'.
+
+A continuación un ejemplo en el que usan argumentos en la función y return para devolver un valor.
+
+function dividirDosNumeros(a, b) {
+  var producto = a / b;
+  return producto;
+}
+
+dividirDosNumeros(6, 3); // 2
+
+Aquí se llama a la función con dividirDosNumeros(6, 3); para que asigne los valores a=6 y b=3 dentro de la función. La función ejecuta el código entre corchetes calculando la división entre a y b (a/b) y guardándola en lavariable producto. return producto hace que la función al terminar de ejecutar el código, retorne el valor producto que es 2. 
+
+Fuera de la función no es posible tener acceso a las variables que están dentro de la función. Por ejemplo, no podemos tener acceso a la variable producto desde afuera. Por eso la única forma de obtener algo desde la función es devolviéndolo, es decir, usando return. Esto se llama Scope "alcance".
+
+-------------------------------------
+Declaraciones if
+
+IF es una estructura de control utilizada para tomar decisiones. Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión. Funciona de la siguiente manera, primero se evalúa una expresión, si da resultado positivo se realizan las acciones relacionadas con el caso positivo. 
+
+La sintaxis de la estructura IF es la siguiente. 
+
+if (expresión) { 
+   //acciones a realizar en caso positivo 
+   //... 
+}
+
+Opcionalmente se pueden indicar acciones a realizar en caso de que la evaluación de la sentencia devuelva resultados negativos. 
+
+if (expresión) { 
+   //acciones a realizar en caso positivo 
+   //... 
+} else { 
+   //acciones a realizar en caso negativo 
+   //... 
+}
+
+-------------------------------------
+Valores booleanos (true, false)
+
+Los valore boleanos son simplemente valores que pueden ser uno de los dos siguientes: verdadero o falso (true o false). Por ejemplo en la siguiente expresión Buleana:
+
+var javascriptIsCool = true;
+javascriptIsCool;
+
+
+En este ejemplo se creó una variable llamada javascriptIsCool y se le asignó el valor Buleano true.
+
+En la segunda linea obtenemos el valor de la variable javascriptIsCool, el cual es, por supuesto, true.
+
+Existen diferentes formas de trabajar con cada tipo de datos. Por ejemplo, podemos multiplicar dos números, pero no podemos multiplicar dos strings. Con un string podemos obtener sus primeros cinco caracteres. Con los valores Buleanos podemos chequear si dos valores son true (ambos verdaderos).
+
