@@ -235,19 +235,15 @@ function esVocal(letra){
   if (letra.length > 1) {
     return "Dato incorrecto";
   }
-    else {
+    else if (letra.length == 1){
       var vocal = (/^[aeiou]$/i).test(letra);
       /*El metodo Test, lo que hace es "Si encuentra la coincidencia, retorna true" */
         if (vocal==false){
         return "Dato incorrecto";
         }
-    } 
-      
-        var vocal = (/^[aeiou]$/i).test(letra);
-          if (vocal==true){
-          return "Es vocal";
-          }
-      
+        return "Es vocal"
+      } 
+  
 }
 
 
