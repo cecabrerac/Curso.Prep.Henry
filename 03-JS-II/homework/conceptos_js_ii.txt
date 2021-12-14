@@ -1,0 +1,21 @@
+
+    for
+
+For se utiliza para hacer bucles. Los bucles permiten ejecutar un fragmento de código varias veces, dependiendo de si una condición sigue siendo verdadera. Los bucles for facilitan su escritura. Al configurar un ciclo for, se crea una variable, se especifica la condición y se dice cómo debe cambiar la variable después de cada ciclo, todo antes de llegar al cuerpo del ciclo donde irá el código a ejecutar.
+
+for (var contadorOvejas = 0; contadorOvejas < 10; contadorOvejas++) {
+console.log("He contado " + contadorOvejas + " ovejas!");
+}
+console.log("Zzzzzzzzzzz");
+
+----------------------------------------
+
+    &&, ||, !
+
+Son operadores lógicos. Son como operadores buleanos que sirven para combinar valores buleanos. Cuando combinamos valores buleanos con operadores el resultado también será un valor buleano (verdadero = true o falso = false).
+
+&& significa "y". Se usa este operador buleano con dos valores buleanos para ver si ambos son verdaderos (true).
+
+|| significa "o". Se usa este operador buleano con dos valores buleanos para ver si alguno de los dos es verdadero.
+
+! significa "no". Se usa para volver falso lo verdadero o para volver verdadero lo falso.
