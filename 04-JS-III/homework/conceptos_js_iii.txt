@@ -1,0 +1,3 @@
+Array
+
+En español significa Arreglo. Un arreglo es simplemente una lista de valores. Los arrays son variables especiales que pueden almacenar una colección o agrupación de valores de diferente naturaleza en su interior. TAmbién podemos decir que un Array es una colección o agrupación de elementos en una misma variable, cada uno de ellos ubicado por la posición que ocupa en el array.
