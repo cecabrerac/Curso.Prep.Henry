@@ -1,0 +1,10 @@
+Prototype
+
+Es el mecanismo mediante el cual un objeto puede heredar (tomar) propiedades (caracteristicas) de un objeto plantilla llamado "Clase". O también dicho de otra manera con prototype se indica que hay un objeto "plantilla" del cual se toman sus propiedades para crear el nuevo objeto.
+
+-------------------------
+
+Constructors (de clases)
+
+un Constructor es un método especial para crear e inicializar un objeto creado a partir de una clase. El constructor es un método (función) dentro de una clase. Y este pasa sus propiedades al objeto creado con ese constructor.
+
