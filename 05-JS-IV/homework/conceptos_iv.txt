@@ -1,0 +1,30 @@
+	Objetos
+	
+Es una colección de propiedades. Son similares a los arreglos (arrays) pero los objetos usan strings en lugar de números (índices) para acceder a los diferentes elementos. Estos strings se llaman "claves" (keys) y los valores a los que apuntan se llaman "valores" (values). Podemos pensar que es similar a los objetos que tenemos en la realidad. Un objeto persona, por ejemplo, tiene muchas propiedades como un nombre, un apellido, su edad, su estatura, su lugar de nacimiento, etc.
+
+-------------------------
+
+	Propiedades.
+
+Una propiedad es una asociación entre una clave (nombre) y un valor (key/value). como se mencionó anteriormente, un objeto puede tener una gran cantidad de propiedades y estas se asocian mediante una clave y su respectivo valor. El objeto persona tiene por ejemplo un nombre, que es la clave y un valor que puede ser "María", por ejemplo. Tambien puede tener una palabra clave edad que apunta a su valor 20, por ejemplo. Ó estatura puede corresponder a 1.60 metros y así para otras propiedades. La sintaxis es “clave: valor”. Los objetos pueden contener muchos pares de clave-valor. Mientras las claves son únicas en un objeto, varias claves pueden tener el mismo valor. Los valores pueden ser cualquier tipo de dato de Javascript; cadena, número, booleano, matriz, función o incluso otro objeto. 
+
+----------------------------------
+
+    	Métodos
+Los métodos son funciones dentro de un objeto. Un objeto puede tner una propiedad, par clave:valor en la que la clave puede tener cualquier nombre y su valor uan función. Este tipo de propiedad es un método.
+
+----------------------------------
+
+    	Bucle for…in
+
+Sire para iterar sobe cada par clave-valor dentro de un objeto. el bucle for que se usa para iterar en arreglos necesita de un índice numérico. Como los objetos no tienen índice numérico entonces se usa for...in. Éste recorre cada clave del objeto y finaliza cuando se hayan iterado todas las claves.
+
+----------------------------------
+
+    	Notación de puntos vs notación de corchetes
+
+Son dos formas de acceder a los valores de los pares clave-valor de un objeto. 
+
+Con la notación de punto llamamos al nombre del objeto seguido de un punto y el nombre de la clave. Por ejemplo: persona.edad; nos devolverá el valor de edad para ese objeto persona que puede ser 22, por ejemplo.
+
+Con la notaación de corchetes se usa el nombre del objeto seguido de la palabra clave entre comillas y entre corchetes. Así: persona['edad']; y obtenemos el mismo resultado que con la notación de puntos. La ventaja de la notación de corchetes es que acepta variables que apuntan a una cadena que corresponde a la palabra clave, esto dentro de los corchetes.
