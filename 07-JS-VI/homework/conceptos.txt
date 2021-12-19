@@ -1,0 +1,18 @@
+Funciones Callback
+
+Una función callback es aquella que es pasada como argumento a otra función para que sea "llamada de nuevo" (call back) en un momento posterior. 
+
+function nombreyFuncionPorEjecutar (nombreDelGato, callback) {
+	return callback(nombreDelGato);
+}
+
+function maullar (nombreDelGato) {
+	console.log (nombreDelGato + ' es un gato y dice Miaw!')
+}
+
+nombreyFuncionPorEjecutar ('Ronco', maullar); // 'Ronco es un gato y dice Miaw'
+
+En este caso la función maullar es pasada como argumento a la función nombreyFuncionPorEjecutar que recibe dos parámetros, el nombre del gato y el nombre de la función callback (maullar). En su código return hace que ejecute la función maullar con el parámetro nombre del gato. return call back es como si ejecutara maullar('Ronco').
+
+
+
