@@ -1,0 +1,35 @@
+h1 {
+    color: maroon;
+    
+}
+
+img {  
+    width: 400px;  
+    height: 200px; 
+}  
+
+#thirdDiv {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(192, 206, 233, 0.6);
+    
+    padding: 50px;
+    border-style: dotted;
+    border-color: crimson;
+    border-width: 10px;
+      
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+body {
+    background-image: url("https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/6c/3d/b0.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+
