@@ -1,0 +1,88 @@
+span {
+    font-weight: bold;
+}
+
+p {
+    text-align:justify ;
+}
+
+#container0 {
+    border: 1px solid black;
+    display: flex;
+}
+#encabezado {
+    /* width: 650px;
+    height: 150px; */
+    min-width: 500px;
+    /* border: 1px solid black; */
+    padding: 5px;
+    background-color:lightsteelblue;
+}
+
+#foto {
+    background-color: lightsteelblue;
+}
+
+#foto img {
+
+    width: 120px;
+    height: 150px;
+    margin-top: 12px;
+    margin-right: 12px;
+    /* position: absolute;
+    left: 500px;
+    top: 12px; */ */
+}
+
+
+#descripcion {
+    border: 1px solid black;
+    /* width: 800px;
+    height: 150px; */
+    /* position: absolute;
+    top: 8px;
+    left: 670px; */
+    padding: 5px;
+    background-color:lightgrey;
+}
+
+#container1 {
+    border: 1px solid black;
+    display: flex;
+}
+
+#estudios {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+    max-width: 300px;
+}
+
+#experiencia {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+#container2 {
+    border: 1px solid black;
+    display: flex;
+}
+
+#skills {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+#hobbies {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+#aspiraciones {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
