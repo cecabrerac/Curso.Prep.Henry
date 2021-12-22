@@ -1,0 +1,57 @@
+
+h1 {
+    color: maroon;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
+    color: yellow;
+}
+img {  
+    width: 400px;  
+    height: 180px; 
+}  
+
+#thirdDiv {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(192, 206, 233, 0.6);
+    
+    padding: 50px;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    background-color: wheat;
+    text-align: center;
+
+}
+
+body {
+    background-image: url("https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/6c/3d/b0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+
